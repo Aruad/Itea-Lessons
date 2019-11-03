@@ -1,0 +1,6 @@
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+	Для внесения ваших изменений на удаленный репозиторий необходимо выполнить следующие команды:
+git add .  (добавление всех измененных файлов в коммит)
+git commit -am ‘ваш комментарий’ (создание нового коммита для отправки изменений)
+git push origin master 

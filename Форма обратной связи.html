@@ -1,0 +1,37 @@
+
+<html>
+<head>
+	<title>Занятие 3</title>
+</head>
+<body>
+<fieldset>
+	<legend>Форма обратной связи </legend>
+	<form action="backEnd.php" method="post">
+		<p>Ваше имя <sup>*</sup></p>
+		<input type="text" name="name" value="" maxlength="10">
+		<p> Фамилия <sup>*</sup></p>
+		<input type="text" name="sername" value="" maxlength="20">
+		<p>Выберите пол</p>
+
+		<select>
+
+			<option disabled selected>Выберите пол <sup>*</sup></option>
+			<option> Женский</option>
+			<option>Мужской</option>
+		</select>
+		<p> Электронная почта <sup>*</sup></p>
+		<input type="text" name="email">
+		<p>Как вы о нас узнали?</p>
+		<input type="radio" name="" value="1"/> Реклама
+		<input type="radio" name="" value="2"/> Интернет
+		<input type="radio" name="" value="3"/> Знакомые
+		<p> Комментарий </p>
+		<textarea name="comments" rows="5" cols="50"></textarea>
+		<div style="margin-top:16px">
+			<input type="submit" name="sabmit">
+			<input type="reset" name="reset">
+		</div>
+	</form>
+</fieldset>
+</body>
+</html>
