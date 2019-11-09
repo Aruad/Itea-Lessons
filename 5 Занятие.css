@@ -1,0 +1,76 @@
+h1.header {
+  /*margin-top: 16px;*/
+  /*color: green;*/
+}
+p.test {
+  color: #DDA0DD;
+  background-color: white;
+}
+h2.test {
+	/*color: "#FFFFFF"*/
+	}
+	div p {
+		background-color:#90EE90;
+		color: #F08080;
+		font-family: Times sans-serif;
+	}
+	div h2 {
+		/*color: #A52A2A;*/
+	}
+
+b + i {
+	color: navy;
+}
+p > #bold1 {
+    color: red;
+  }
+  input[type="text"] {
+  	border-radius: 5px;
+  	text-decoration: underline;
+  }
+  input[type="button"] {
+  	background-color: #7FFF00
+  }
+div >h1{
+	/*color: red*/
+}
+* {
+	font-family: Times serif
+	font-size: 50%;
+	text-decoration: origin;
+}
+
+div > a:active {color: #DC143C
+text-decoration: none;}
+a:visited {color: 	#00FFFF}
+a {
+  text-decoration: none;
+}
+li::before {
+	content: "Любимое имя   "
+
+}
+li::after {
+	content: ", Давай дружить"
+}
+ol::before {
+	content: "Так было бы здорово"
+}
+h1, h2 {
+		font-family: Verdana;
+		font-size: 85%;
+		font-variant: small-caps;
+		background: #DC143C
+	}
+	h1, h2 {
+		background: #0080089;
+	}
+option::after {
+	content: "Бредогенерация "
+}
+option::before {
+content: " ,Распознавание бредогенерации"
+}
+select {
+	align=300;
+}
